@@ -15,8 +15,8 @@ header h2 {
     display: flex;
     justify-content: center;
 }
-nav {
 
+nav {
 }
 
 .nav-center {
@@ -25,10 +25,22 @@ nav {
 .nav-links-list {
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 
 .nav-link {
     padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
 }
 
 main {
@@ -42,19 +54,26 @@ main {
     align-items: center;
 }
 
-.container h2 {
+.backCol {
     padding: 10px;
     border-radius: 10px;
-    box-shadow: #454444 inset 0px 0px 10px 2px;
+    box-shadow: #000000 inset 0px 0px 10px 2px;
     background-color: #64fbfb;
 }
 
 .color {
-
 }
+
 .color span {
     border: 0px;
 }
+
 .btn-click-me {
-    width: 100px;
+    background-color: #dbfaff;
+    width: 170px;
+    height: 40px;
+    border-radius: 15px;
+    border: black 3px solid;
+    font-size: 25px;
+    font-weight: bold;
 }
