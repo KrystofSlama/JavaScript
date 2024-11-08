@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4deff;
+
+}
+
+header {
+    font-family: Arial;
+    font-size: 4rem;
+    font-weight: bold;
+
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px;
+
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+.profile {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.author {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.job {
+    color: #00a6ff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px
+}
+
+.info {
+    text-align: center;
+    font-family: Avenir;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn {
+    margin-bottom: 20px;
+
+    
+}
