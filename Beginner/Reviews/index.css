@@ -26,9 +26,41 @@ header {
     border-radius: 20px;
 }
 
+.onProfile, .profile, .underProfile {
+    position: relative;
+}
+
+.onProfile {
+    z-index: 2;
+    position: absolute;
+    background-color: #009aff;
+    border-radius: 50%;
+    width: 25px;
+    height: 30px;
+    top: 145px;
+    left: 270px;
+    font-size: 40px;
+    color: white;
+    padding-left: 5px;
+}
+
 .profile {
-    margin-top: 20px;
+    z-index: 1;
+    background-color: #b2ffd9;
     width: 100px;
+    border-radius: 50%;
+    margin-top: 20px
+}
+
+.underProfile {
+    z-index: 0;
+    position: absolute;
+    background-color: #009aff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    right: 275px;
+    top: 130px;
 }
 
 .author {
@@ -53,5 +85,4 @@ header {
 .btn {
     margin-bottom: 20px;
 
-    
 }
